@@ -11,7 +11,10 @@ class Pirate
   end
 
   def self.all
-    PIRATES
+    @@all
   end
+  
+  def self.clear
+    @@all = []
 end
   
